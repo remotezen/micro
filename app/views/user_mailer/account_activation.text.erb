@@ -1,0 +1,5 @@
+Hi <%= @user.name %>
+
+Hey great to have you at the micro app
+
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>

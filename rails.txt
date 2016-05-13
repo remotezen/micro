@@ -1,0 +1,77 @@
+#### START POSTGRES
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+
+
+####STOP POSTGRES
+pg_ctl -D /usr/local/var/postgres stop -s -m fast
+createuser -P -d -e [micro]
+rails new myblogapp --database=postgresql
+pg_ctl -D /usr/local/share/postgres -l logfile start
+ 
+initdb /usr/local/var/postgres
+mkdir -p ~/Library/LaunchAgents
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+
+
+###Create the databases
+rake db:create:all
+
+
+##Create Controller
+
+rails g controller [StaticPages]<home help>
+
+[Undo]
+rake db:drop
+rake db:create
+rake db:migrate
+rake db:seed
+rails destroy  controller StaticPages home help
+
+rails g model User name:string email:string
+rails destroy model User
+rake db:migrate
+rake db:rollback
+rake db:migrate
+rake db:migrate VERSION=0 # go back to the beginning
+rake routes
+rake test
+#Testing get colors add to test_helper.rb
+require "minitest/reporters"
+Minitest::Reporters.use!
+rails g integration_test site_layout
+#### For unique fields ie: Email
+###################################
+rails g migration add_index_to_users_email
+	add_index :users, :email, unique: true
+######Password Digest
+rails g migration add_password_digest_to_users password_digest:string
+=======
+
+#errors in browser
+debug(params) if Rails.env.development?
+
+
+
+#run single test############
+bundle exec rake test TEST=test/helpers/sessions_helper_test.rb
+
+######heroku
+$ heroku maintenance:on
+$ git push heroku
+$ heroku run rake db:migrate
+$ heroku maintenance:off
+revert to last commit git reset --hard <commit number>
+#Rails mailers
+####################
+	rails generate mailer UserMailer account_activation password_reset
+db:migrate:reset
+
+rake db:drop
+rake db:create
+rake db:schema:load # (think of this as running all the migrations you've run before)
+rake db:seed # (creates your 100 database users)
+
+###******New checkout user reference############
+The biggest difference is the use of references, which automatically adds a user_id column (along with an index and a foreign key reference)3 

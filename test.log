@@ -1,0 +1,666 @@
+# Logfile created on 2016-04-29 21:15:01 -0400 by logger.rb/53141
+F, [2016-05-03T10:15:36.113333 #29732] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/lusers/1/edit"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:40:02.673656 #66372] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/mailers/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:40:06.659546 #66372] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/mailers/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:51:11.447777 #66372] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/mailers/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:51:16.415753 #66372] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/mailers/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:52:07.715509 #66373] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/mailers/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:52:10.151845 #66373] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/mailers/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:52:10.941939 #66373] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/mailers/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:52:11.807753 #66373] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/mailers/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-05T10:59:30.737754 #66373] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/user_mail/account_activation"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+E, [2016-05-10T09:58:35.546430 #12197] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T09:58:35.640090 #12197] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T09:58:40.699798 #12254] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T09:58:40.785838 #12254] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T09:59:44.538119 #12322] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T09:59:44.627341 #12322] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T10:18:01.355494 #12874] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T10:18:01.443926 #12874] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:08:30.125571 #18401] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:08:30.213483 #18401] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:10:23.297614 #18632] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:10:23.394037 #18632] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:11:05.842986 #18799] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:11:05.929991 #18799] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:12:31.331296 #19315] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:12:31.430561 #19315] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:13:28.255152 #19385] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:13:28.351695 #19385] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:14:22.121683 #19452] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:14:22.218093 #19452] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:15:05.965697 #19517] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:15:06.066563 #19517] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:15:15.037013 #19574] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:15:15.133578 #19574] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:15:56.399846 #19637] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:15:56.496700 #19637] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:16:48.915209 #19707] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:16:49.011916 #19707] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:17:17.311584 #19769] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:17:17.406164 #19769] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:18:45.298743 #19843] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:18:45.399413 #19843] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:19:24.249851 #19906] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:19:24.355593 #19906] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:20:22.367264 #19975] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:20:22.461173 #19975] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:20:51.428773 #20036] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:20:51.527319 #20036] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:23:31.893184 #20390] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:23:31.995843 #20390] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:25:19.453403 #20471] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:25:19.548261 #20471] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:25:24.191363 #20523] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:25:24.361492 #20523] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:27:45.065237 #20607] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:27:45.172254 #20607] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:27:45.594340 #20607] ERROR -- : PG::ForeignKeyViolation: ERROR:  update or delete on table "users" violates foreign key constraint "fk_rails_558c81314b" on table "microposts"
+DETAIL:  Key (id)=(1046959426) is still referenced from table "microposts".
+: DELETE FROM "users" WHERE "users"."id" = $1
+E, [2016-05-10T11:28:39.822501 #20674] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:28:39.925660 #20674] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:39:01.568375 #21632] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:39:01.655421 #21632] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:40:08.645581 #21753] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:40:08.739553 #21753] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:40:31.402596 #21862] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:40:31.496844 #21862] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:40:50.680891 #21972] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:40:50.782437 #21972] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:41:05.167751 #22080] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:41:05.259158 #22080] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:43:36.881986 #22215] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:43:36.982090 #22215] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:44:17.213569 #22284] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:44:17.323323 #22284] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:44:45.647464 #22395] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:44:45.747073 #22395] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:51:00.535137 #22654] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:51:00.630999 #22654] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T11:51:32.571119 #22715] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T11:51:32.672269 #22715] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T12:39:56.168482 #24564] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T12:39:56.259772 #24564] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T12:40:10.819601 #24623] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T12:40:10.912593 #24623] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20167" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:29:49.173583 #28187] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:29:49.575654 #28187] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(975827294) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:19:49 UTC', '2016-05-10 17:29:49', 499495288, 975827294)
+E, [2016-05-10T13:29:49.577946 #28187] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:30:18.745105 #28249] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:30:19.114013 #28249] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(975827294) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:20:18 UTC', '2016-05-10 17:30:19', 499495288, 975827294)
+E, [2016-05-10T13:30:19.116663 #28249] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:31:43.997344 #28322] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:31:44.378110 #28322] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(975827294) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Ad voluptates velit deserunt dolores autem fugit dolor voluptatem culpa.', '2016-03-29 17:31:44 UTC', '2016-05-10 17:31:44', 177734013, 975827294)
+E, [2016-05-10T13:31:44.380834 #28322] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:34:24.213758 #28408] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:34:24.597831 #28408] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(975827294) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:24:24 UTC', '2016-05-10 17:34:24', 499495288, 975827294)
+E, [2016-05-10T13:34:24.599936 #28408] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:46:52.626008 #28869] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:46:52.991304 #28869] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(235405542) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:36:52 UTC', '2016-05-10 17:46:52', 499495288, 235405542)
+E, [2016-05-10T13:46:52.993338 #28869] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:47:56.334521 #28989] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:47:56.735630 #28989] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(235405542) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:37:56 UTC', '2016-05-10 17:47:56', 499495288, 235405542)
+E, [2016-05-10T13:47:56.738403 #28989] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:48:56.715393 #29057] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:48:57.090351 #29057] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(235405542) is not present in table "users".
+: INSERT INTO "microposts" ("id", "content", "created_at", "updated_at", "user_id") VALUES (3, 'I just ate an orange!', '2016-05-10 17:38:56 UTC', '2016-05-10 17:48:57', 235405542)
+E, [2016-05-10T13:48:57.093163 #29057] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20503" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:49:50.174968 #29227] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20559" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:49:50.578256 #29227] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(235405542) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:39:50 UTC', '2016-05-10 17:49:50', 499495288, 235405542)
+E, [2016-05-10T13:49:50.580416 #29227] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20559" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:51:32.968655 #29408] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20612" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:51:33.395539 #29408] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(975827294) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:41:32 UTC', '2016-05-10 17:51:33', 499495288, 975827294)
+E, [2016-05-10T13:51:33.397856 #29408] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20612" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:54:35.590890 #29720] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20612" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:54:35.978743 #29720] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(975827294) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:44:35 UTC', '2016-05-10 17:54:35', 499495288, 975827294)
+E, [2016-05-10T13:54:35.981229 #29720] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20612" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:55:28.326154 #29891] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20665" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:55:28.736578 #29891] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(975827294) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:45:28 UTC', '2016-05-10 17:55:28', 499495288, 975827294)
+E, [2016-05-10T13:55:28.738896 #29891] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20665" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+E, [2016-05-10T13:59:46.738568 #30058] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20665" is a system trigger
+: ALTER TABLE "sessions" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+E, [2016-05-10T13:59:47.143346 #30058] ERROR -- : PG::ForeignKeyViolation: ERROR:  insert or update on table "microposts" violates foreign key constraint "fk_rails_558c81314b"
+DETAIL:  Key (user_id)=(975827294) is not present in table "users".
+: INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-05-10 17:49:46 UTC', '2016-05-10 17:59:47', 499495288, 975827294)
+E, [2016-05-10T13:59:47.145525 #30058] ERROR -- : PG::InsufficientPrivilege: ERROR:  permission denied: "RI_ConstraintTrigger_a_20665" is a system trigger
+: ALTER TABLE "sessions" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+F, [2016-05-11T17:08:41.338753 #39633] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/microposts"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+E, [2016-05-12T10:26:59.748574 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:26:59', '2016-05-12 14:26:59', 298486374)
+E, [2016-05-12T10:26:59.819145 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:26:59', '2016-05-12 14:26:59', 298486374)
+E, [2016-05-12T10:26:59.894383 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:26:59', '2016-05-12 14:26:59', 298486374)
+E, [2016-05-12T10:26:59.963431 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:26:59', '2016-05-12 14:26:59', 298486374)
+E, [2016-05-12T10:27:00.031660 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:00.094531 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:00.157383 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:00.222718 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:00.289554 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:00.356538 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:00.419683 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:00.483595 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:00.549793 #65110] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:00', '2016-05-12 14:27:00', 298486374)
+E, [2016-05-12T10:27:07.020626 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.103918 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.177537 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.245583 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.315286 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.386894 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.463248 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.534981 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.604833 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.678657 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.747777 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.818610 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.890285 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:07.962065 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:07', '2016-05-12 14:27:07', 298486374)
+E, [2016-05-12T10:27:08.033349 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.103151 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.174965 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.243778 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.315507 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.386351 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.459389 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.527875 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.598325 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.673058 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.741918 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.809564 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.881686 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:08.949959 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:08', '2016-05-12 14:27:08', 298486374)
+E, [2016-05-12T10:27:09.023000 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.094071 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.164437 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.236361 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.321345 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.402191 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.479915 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.560406 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.633768 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.718032 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.792823 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.865544 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:09.941702 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:09', '2016-05-12 14:27:09', 298486374)
+E, [2016-05-12T10:27:10.025338 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.104012 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.188675 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.272444 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.354744 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.432969 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.515748 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.595733 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.676368 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.757654 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.840994 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:10.921928 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:10', '2016-05-12 14:27:10', 298486374)
+E, [2016-05-12T10:27:11.005569 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:11', '2016-05-12 14:27:11', 298486374)
+E, [2016-05-12T10:27:11.089221 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:11', '2016-05-12 14:27:11', 298486374)
+E, [2016-05-12T10:27:11.170047 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:11', '2016-05-12 14:27:11', 298486374)
+E, [2016-05-12T10:27:11.237691 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:11', '2016-05-12 14:27:11', 298486374)
+E, [2016-05-12T10:27:11.310025 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:11', '2016-05-12 14:27:11', 298486374)
+E, [2016-05-12T10:27:11.381458 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:11', '2016-05-12 14:27:11', 298486374)
+E, [2016-05-12T10:27:11.453772 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:11', '2016-05-12 14:27:11', 298486374)
+E, [2016-05-12T10:27:11.525278 #65116] ERROR -- : SQLite3::ConstraintException: UNIQUE constraint failed: relationships.follower_id, relationships.followed_id: INSERT INTO "relationships" ("follower_id", "followed_id", "created_at", "updated_at", "id") VALUES (1, 1, '2016-05-12 14:27:11', '2016-05-12 14:27:11', 298486374)
+F, [2016-05-13T11:01:04.918012 #76201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/microposts"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-13T11:01:08.383706 #76201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/microposts"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-13T11:02:48.306829 #76202] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/microposts"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+F, [2016-05-13T11:03:37.949260 #76201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/microposts"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:22:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  puma (3.1.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.1.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.1.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.1.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.1.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
