@@ -2,6 +2,8 @@
 	<%= render 'shared/error_messages', object: f.object %>
 	<div class="field">
 		<%= f.text_area :reply, placeholder: "reply to micro...." %>
+		<%=f.hidden_field(:micropost_id, value: @micropost.id)  %>`<span>
+		</span>
 <span class="counter"></span>
 	</div>
 	<%= f.submit "Reply", class: "btn black-background white" %>

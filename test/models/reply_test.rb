@@ -20,7 +20,16 @@ class ReplyTest < ActiveSupport::TestCase
   test "micropost id should be present" do
     @reply.micropost_id = nil
     assert_not @reply.valid?
-    
+  end
+  test "reply reply presence" do
+    @reply.reply = " "
+    assert_not @reply.valid?
+  end
+
+  test "validates reply length < 140" do
+    reply = "A" * 141
+    @reply.reply = reply
+    assert_not @reply.valid?
   end
   # test "the truth" do
   #   assert true
