@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :users
 
+
   root    'static_pages#home'
   get     'help'      =>   'static_pages#help'
   get     'about'     =>  'static_pages#about'
@@ -21,7 +22,7 @@ Rails.application.routes.draw do
   resources :password_resets, only:[:new, :create, :edit, :update]
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
-  resources :replies, only: [:new, :create, :destroy]
+  resources :replies, only: [:create, :destroy]
 
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -35,6 +36,7 @@ Rails.application.routes.draw do
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
+      get 'replies/:micro_id/new' => 'replies#new', as: :replied
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
