@@ -78,3 +78,8 @@ rake db:seed # (creates your 100 database users)
 The biggest difference is the use of references, which automatically adds a user_id column (along with an index and a foreign key reference)3 
 
 git tag -a v1.4 -m "my version 1.4"
+
+
+
+#FOR inner join ei user to microposts
+rail g model reply string:comment micropost:references
