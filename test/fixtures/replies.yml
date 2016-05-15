@@ -1,3 +1,5 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-
+one:
+  reply: "I like oranges too"
+  created_at: <%=10.minute.ago%>
+  user: fred
+  micropost: orange  

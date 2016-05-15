@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   resources :password_resets, only:[:new, :create, :edit, :update]
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
-  get 'replies/:micro_id/new' => 'replies#new', as: :replying
+  get 'replies/:micropost_id/new' => 'replies#new', as: :replying
   resources :replies, only: [:new, :create, :destroy]
 
 

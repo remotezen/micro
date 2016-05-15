@@ -10,6 +10,7 @@ class RepliesTest < ActionDispatch::IntegrationTest
   test "should have a reply form" do
     get replying_path(@micropost.id)
     assert_select "textarea"
+    assert_select "title" , "In response to | Micro Application"
     assert_response :success
   end
 end

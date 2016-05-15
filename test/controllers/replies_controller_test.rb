@@ -2,15 +2,9 @@ require 'test_helper'
 
 class RepliesControllerTest < ActionController::TestCase
   def setup(*args)
-    @user = users(:fred)
+    @user = users(:lana)
     @micropost = microposts(:orange)
-    
   end
-  test "should have a reply form" do
-    get :new, micro_id: @micropost
-    assert_select "textarea"
-    assert_response :success
-    end
   
   test "should not create reply if not following user" do
     log_in_as(@user)
