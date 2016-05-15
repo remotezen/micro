@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160512141336) do
+ActiveRecord::Schema.define(version: 20160515123722) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,19 @@ ActiveRecord::Schema.define(version: 20160512141336) do
   add_index "relationships", ["followed_id"], name: "index_relationships_on_followed_id", using: :btree
   add_index "relationships", ["follower_id", "followed_id"], name: "index_relationships_on_follower_id_and_followed_id", unique: true, using: :btree
   add_index "relationships", ["follower_id"], name: "index_relationships_on_follower_id", using: :btree
+
+  create_table "replies", force: :cascade do |t|
+    t.text     "reply"
+    t.integer  "micropost_id"
+    t.integer  "user_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  add_index "replies", ["micropost_id", "created_at"], name: "index_replies_on_micropost_id_and_created_at", using: :btree
+  add_index "replies", ["micropost_id"], name: "index_replies_on_micropost_id", using: :btree
+  add_index "replies", ["user_id", "created_at"], name: "index_replies_on_user_id_and_created_at", using: :btree
+  add_index "replies", ["user_id"], name: "index_replies_on_user_id", using: :btree
 
   create_table "sessions", force: :cascade do |t|
     t.string   "session_id", null: false
@@ -66,4 +79,6 @@ ActiveRecord::Schema.define(version: 20160512141336) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
 
   add_foreign_key "microposts", "users"
+  add_foreign_key "replies", "microposts"
+  add_foreign_key "replies", "users"
 end
