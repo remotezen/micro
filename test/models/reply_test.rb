@@ -11,6 +11,15 @@ class ReplyTest < ActiveSupport::TestCase
   end
   test "should be valid" do
     assert @reply.valid?
+  end
+  test "user id should be present" do
+    @reply.user_id = nil
+    assert_not @reply.valid?
+  end
+
+  test "micropost id should be present" do
+    @reply.micropost_id = nil
+    assert_not @reply.valid?
     
   end
   # test "the truth" do
