@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
-  get 'password_resets/new'
 
-  get 'password_resets/edit'
-
-  get 'sessions/new'
 
   resources :users
 
@@ -25,6 +21,7 @@ Rails.application.routes.draw do
   resources :password_resets, only:[:new, :create, :edit, :update]
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
+  resources :replies, only: [:new, :create, :destroy]
 
 
   # The priority is based upon order of creation: first created -> highest priority.

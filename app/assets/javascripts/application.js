@@ -20,7 +20,15 @@
 
 $( document ).ready(function() {
 	$("#micropost_content").charCount({
-			allowed: 50,		
+			allowed: 140,		
+			warning: 20,
+			counterText: 'Characters left: '	
+	});
+});
+
+$( document ).ready(function() {
+	$("#reply_reply").charCount({
+			allowed: 140,		
 			warning: 20,
 			counterText: 'Characters left: '	
 	});
