@@ -3,7 +3,8 @@ require 'test_helper'
 class RepliesControllerTest < ActionController::TestCase
   def setup(*args)
     @user = users(:lana)
-    @micropost = microposts(:orange)
+    @other = users(:fred)
+    @micropost = microposts(:zone)
   end
   
   test "should not create reply if not following user" do
@@ -19,7 +20,7 @@ class RepliesControllerTest < ActionController::TestCase
   
   test "should create reply" do
     log_in_as(@user)
-    assert_difference 'Reply.count', 1 do
+    assert_difference 'Reply.count', 1  do
     post :create,  reply: { reply: "ipsum loquitor", 
                              micropost_id: @micropost.id
                            }

@@ -10,9 +10,6 @@ three:
   follower: lana
   followed: michael
 
-four:
-  follower: archer
-  followed: michael
 
 five:    
   follower: fred

@@ -29,7 +29,6 @@ class RepliesController < ApplicationController
       else
         micro = params[:reply][:micropost_id]
       end
-
       post = Micropost.find_by(id: micro)
       redirect_to(root_url) unless current_user.following?(post.user)
     end
