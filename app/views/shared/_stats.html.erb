@@ -13,4 +13,10 @@
 		</strong>
 		followers
 	</a>
+	<a href=<%= reply_path(@user) %>>
+		<strong class="stats">
+			<%= pluralize(@user.replies.count, "reply") %>
+		</strong>
+
+	</a>
 </div>

@@ -83,3 +83,14 @@ git tag -a v1.4 -m "my version 1.4"
 
 #FOR inner join ei user to microposts
 rail g model reply string:comment micropost:references
+
+
+
+
+#########PG_SEARCH
+$ rake -T ####shows availabe rake tasks
+$ rails g pg_search:migration:multisearch
+$ rake db:migrate
+rebuild tables
+bundle exec rake pg_search:multisearch:rebuild[User]
+ bundle exec rails g pg_search:migration:multisearch  

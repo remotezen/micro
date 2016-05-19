@@ -1,0 +1,24 @@
+<ul class="users">
+	<li>
+		<h4>
+			<%=@micropost.content %>
+		</h4>
+		<span class="timestamp">
+			created by <%= link_to @micropost.user.name, user_path(@micropost.user) %>
+		</span>
+		<span class="timestamp">
+			Micropost was create <%= time_ago_in_words(@micropost.created_at)%> ago.
+		</span>
+		<span class="timestamp">
+			has been a member since <%= @micropost.user.created_at %>
+		</span>
+			<h3><%= pluralize(@micropost.replies.count, "reply") %></h3>
+		<ul>
+			<% @micropost.replies.each do |micro| %>
+				<li>
+				<%=micro.reply%>
+			</li>
+			<% end %>
+		</ul>
+	</li>
+</ul>

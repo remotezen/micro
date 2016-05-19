@@ -1,0 +1,26 @@
+
+<span class="hit-counter">
+	<strong>
+		{ <%= current_user.name %>'s Search Results }
+	</strong>
+</span>
+<ul class="search_results">
+	<% @pg_search_documents.each do |s| %>
+		<% if s.searchable_type == "Micropost" %>
+			<%= render partial: "searches/micropost_result", 
+				object: s, as: "micropost"%>
+			<% elsif s.searchable_type == "User" %>
+				<%= render partial: "searches/user_result", 
+					object: s, as: "user"%>
+			<% elsif s.searchable_type == "Reply" %>
+				<%= render partial: "searches/reply_result", 
+					object: s, as: "reply"%>
+			<% end %>
+	<% end %>
+</ul>
+<span class="hit-counter">
+	<strong>
+		<%= pluralize(@pg_search_documents.count,"record") %> match your search term 
+	</strong>
+</span>
+	<%= paginate(@pg_search_documents) %>

@@ -1,11 +1,24 @@
 <%= provide :title, "In response to" %>
+<div class="row">
+	<div class="col-md-8 col-md-offset-3">
+		<div class="micropost-comment">
+			<h3>
+				<%= @micropost.content %>
+			</h3>
+			<p><strong><%= @micropost.user.name %></strong></p>
+			<span class="timestamp">
+				<%=  time_ago_in_words(@micropost.created_at)%> ago.
+			</span>
+		</div>
 <%= form_for(@reply) do |f| %>
 	<%= render 'shared/error_messages', object: f.object %>
 	<div class="field">
-		<%= f.text_area :reply, placeholder: "reply to micro...." %>
+		<%= f.text_area :reply, class: 'form-control', placeholder: "reply to micro...." %>
 		<%=f.hidden_field(:micropost_id, value: @micropost.id)  %>`<span>
 		</span>
 <span class="counter"></span>
 	</div>
 	<%= f.submit "Reply", class: "btn black-background white" %>
 <%end %>
+	</div>
+</div>

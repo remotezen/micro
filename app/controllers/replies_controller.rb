@@ -11,8 +11,14 @@ class RepliesController < ApplicationController
       redirect_to current_user
     end
   end
+  
+  def show
+    @replies = Reply.where(user_id: params[:id]).paginate(page: params[:page])
+  end
+  
   def destroy
   end
+  
   def new
     @micropost = Micropost.find_by(id: params[:micropost_id])
     @reply = Reply.new
@@ -30,6 +36,6 @@ class RepliesController < ApplicationController
         micro = params[:reply][:micropost_id]
       end
       post = Micropost.find_by(id: micro)
-      redirect_to(root_url) unless current_user.following?(post.user)
+      redirect_to(root_url) unless current_user.following?(post.user_id)
     end
 end

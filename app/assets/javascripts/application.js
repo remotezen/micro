@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require charCount
 //= require micropost
+//=require private_pub
 //= require_tree .
 
 $( document ).ready(function() {

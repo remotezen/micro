@@ -5,10 +5,55 @@ $footer-border-color: #eaeaea;
 $footer-link-color: #222;
 $footer-text-color: #777;
 $gray-lighter: #ddd;
+$link-color: rgb(41,100,158);
 @mixin box_sizing{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+}
+.glyphicon-search{
+	background:#eee;
+	color: #111;
+
+}
+.user-record{
+	font-size:1.1em;
+
+}
+.search_results{
+	list-style-type:none;
+	li{
+		margin-bottom:8px;
+	}
+}
+.search-record-detail{
+	display:block;
+	color:$link-color;
+	margin-bottom:2em;
+	padding-left:1.2em;
+	font-size:.8em;
+
+}
+.user-links{
+	
+}
+.hit-counter{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	display:block;
+	font-size: 1.2em;
+	color: $link-color;
+}
+.search-input{
+	background: #111;
+	color:#eee;
+}
+.micropost-comment{
+	margin-bottom:20px;
+	border-bottom: 1px solid $gray-lighter;
+	padding: 8px 20px;
+	text-align: center;
 }
 .stats{
 	overflow: auto;
@@ -256,5 +301,9 @@ input{
 	.form-control {
 		color: $state-danger-text;
 	}
+}
+span.timestamp{
+	display:block;
+	opacity:.7;
 }
 

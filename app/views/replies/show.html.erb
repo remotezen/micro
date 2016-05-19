@@ -1,0 +1,20 @@
+
+<% provide :title, "All my replies" %>
+<span class="timestamp">
+	<h1>
+	<%= pluralize(@replies.count, "reply") %> 
+	</h1>
+</span>
+
+<div class="col md-8 col-md-offset-3">
+	<ol class="users">
+		<%= render @replies %>
+	</ol>
+	<span class="timestamp">
+		<%= will_paginate(@replies) %>
+	</span>
+
+
+</div>
+
+

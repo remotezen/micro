@@ -1,0 +1,10 @@
+<li>
+	<span class="user-record">
+		<strong>
+			<%=link_to reply.content.humanize, replying_path(reply.searchable_id)  %>
+		</strong>
+	</span>
+			<span class="search-record-detail">
+				Reply record: created <%=time_ago_in_words(reply.created_at)%> ago.
+			</span>
+</li>

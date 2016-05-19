@@ -1,0 +1,10 @@
+<li>
+	<h3>
+		<%= link_to reply.reply, micropost_path(reply.micropost_id) %>
+	</h3>
+	<span class="timestamp">
+		created <%= time_ago_in_words(reply.created_at) %> ago.
+	</span>
+	
+</li>
+

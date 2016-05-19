@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
 
+  get 'conversations/show'
 
   resources :users
-
-
   root    'static_pages#home'
   get     'help'      =>   'static_pages#help'
   get     'about'     =>  'static_pages#about'
@@ -20,10 +19,14 @@ Rails.application.routes.draw do
   end
   resources :account_activations, only: [:edit]
   resources :password_resets, only:[:new, :create, :edit, :update]
-  resources :microposts, only: [:create, :destroy]
+  resources :microposts, only: [:show, :create, :destroy]
   resources :relationships, only: [:create, :destroy]
   get 'replies/:micropost_id/new' => 'replies#new', as: :replying
-  resources :replies, only: [:new, :create, :destroy]
+  resources :replies, only: [:show, :new, :create, :destroy]
+  resources :messages, only: [:index, :new, :create]
+  post 'searches/index' => 'searches#index', as: :search
+  get 'searches/index' => 'searches#index', as: :get_search
+  
 
 
   # The priority is based upon order of creation: first created -> highest priority.

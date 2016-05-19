@@ -1,0 +1,10 @@
+<li>
+	<span class="user-record">
+			<strong>
+				<%=link_to user.content.humanize, user_path(user.searchable_id)  %>
+			</strong>
+	</span>
+			<span class="search-record-detail">
+				user record: signed up <%=time_ago_in_words(user.created_at)%> ago.
+			</span>
+</li>

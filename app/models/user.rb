@@ -13,10 +13,9 @@ class User < ActiveRecord::Base
   
   has_many :following, through: :active_relationships,
     source: :followed
-
-=begin  
-can omit the source key follower_id is implicit
-=end
+  include PgSearch
+  multisearchable :against => [:name]
+  paginates_per 15
   has_many :followers, through: :passive_relationships, source: :follower
   
   attr_accessor :remember_token, :activation_token, :reset_token
