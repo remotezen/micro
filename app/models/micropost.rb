@@ -1,4 +1,6 @@
 class Micropost < ActiveRecord::Base
+  extend FriendlyId
+  friendly_id :content, use:[:slugged, :finders]
   belongs_to :user
   default_scope -> {order(created_at: :desc) }
   has_many :replies, dependent: :destroy
@@ -17,4 +19,14 @@ class Micropost < ActiveRecord::Base
       errors.add(:picture, "should be less then 5MB")
     end 
   end
+
+  def slug_candidates
+    [
+      :content,
+      [:content, :id]
+    ]
+  end
 end
+  
+
+

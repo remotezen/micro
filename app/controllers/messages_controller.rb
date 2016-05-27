@@ -6,7 +6,7 @@ class MessagesController < ApplicationController
 
   def create
     @message = Message.create!(message_params)
-    PrivatePub.publish_to("/messages/new", message: @message)
+    PrivatePub.publish_to("/messages/1", message: @message)
   end
   private
   def message_params

@@ -12,11 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require bootstrap 
 //= require turbolinks
 //= require charCount
 //= require micropost
 //=require private_pub
+//=require autocomplete-rails
 //= require_tree .
 
 $( document ).ready(function() {

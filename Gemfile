@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails',                   '4.2.2'
+gem 'jquery-ui-rails'
+gem 'rails4-autocomplete'
 
 #rails g private_pub install
 #rake up private_pub.ru -s thin -E production
@@ -11,6 +13,7 @@ gem 'thin'
 gem 'config'
 gem 'pg_search'
 gem 'kaminari'
+gem 'friendly_id'
 
 #foreman start
 

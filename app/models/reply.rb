@@ -1,5 +1,7 @@
 class Reply < ActiveRecord::Base
-  belongs_to :micropost
+  extend FriendlyId
+  friendly_id :reply, use: [:slugged, :finders]
+
   belongs_to :user
   default_scope->{order(created_at: :desc)} 
   validates :user_id, presence: true
@@ -9,6 +11,11 @@ class Reply < ActiveRecord::Base
   include PgSearch
   multisearchable :against => [:reply]
   paginates_per 15
-  
+  def slug_candidates
+    [
+      :reply,
+      [:reply, :id]
+    ]
+  end 
 
 end

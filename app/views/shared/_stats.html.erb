@@ -15,7 +15,7 @@
 	</a>
 	<a href=<%= reply_path(@user) %>>
 		<strong class="stats">
-			<%= pluralize(@user.replies.count, "reply") %>
+			<%= link_to pluralize(@user.replies.count, "reply"), reply_path(current_user.id) %>
 		</strong>
 
 	</a>

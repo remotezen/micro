@@ -1,6 +1,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+#resultcontainerbox{
+	display:block;
+	margin-top:300px;
+	padding: 30px;
+	text-align:center;
+	background:#000;
+	position:absolute;
+
+
+}
+
+
 $footer-border-color: #eaeaea;
 $footer-link-color: #222;
 $footer-text-color: #777;

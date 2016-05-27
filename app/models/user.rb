@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  extend FriendlyId
+  friendly_id :name, use: [:slugged, :finders]
   has_many :microposts, dependent: :destroy
   has_many :replies, dependent: :destroy
   has_many :active_relationships, class_name: "Relationship",
@@ -15,6 +17,13 @@ class User < ActiveRecord::Base
     source: :followed
   include PgSearch
   multisearchable :against => [:name]
+
+  def slug_candidates
+    [
+      :name,
+      [:name, :email]
+    ]
+  end
   paginates_per 15
   has_many :followers, through: :passive_relationships, source: :follower
   
@@ -121,6 +130,13 @@ class User < ActiveRecord::Base
     self.activation_token = User.new_token
     self.activation_digest = User.digest(activation_token)
 
+  end
+
+  def slug_candidates
+    [
+      :name,
+      [:name, :email]
+    ]
   end
 
 end

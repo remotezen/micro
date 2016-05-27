@@ -12,8 +12,15 @@
 		<span class="timestamp">
 			has been a member since <%= @micropost.user.created_at %>
 		</span>
-			<h3><%= pluralize(@micropost.replies.count, "reply") %></h3>
-		<ul>
+
+		<h3>
+			This Micro <u><%=@micropost.content  %></u> 
+			<br>
+		</h3>
+		<h4>
+			Received 
+			<%= pluralize(@micropost.replies.count, "reply") %></h3>
+		</h4>
 			<% @micropost.replies.each do |micro| %>
 				<li>
 				<%=micro.reply%>

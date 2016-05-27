@@ -23,10 +23,17 @@ Rails.application.routes.draw do
   resources :relationships, only: [:create, :destroy]
   get 'replies/:micropost_id/new' => 'replies#new', as: :replying
   resources :replies, only: [:show, :new, :create, :destroy]
-  resources :messages, only: [:index, :new, :create]
+  resources :messages, only: [:index, :create]
   post 'searches/index' => 'searches#index', as: :search
   get 'searches/index' => 'searches#index', as: :get_search
-  
+  get 'messages/:id' => 'messages#index'
+
+  resources :searches do
+    get :autocomplete_user_name, :on => :collection
+    get :autocomplete_reply_reply, :on => :collection
+    get :autocomplete_micropost_content , :on => :collection
+  end
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

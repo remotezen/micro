@@ -1,5 +1,10 @@
 class RepliesController < ApplicationController
   before_action :followed_user, only: [:new]
+  
+  def index
+    @replies = current_user.replies
+  end
+  
   def create
     @reply = current_user.replies.build(replies_params)
     @title = "In response to"

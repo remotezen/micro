@@ -1,8 +1,9 @@
 <form class="navbar-form " action="<%= get_search_path %>">
-		<div class="form-group has-search" style="display:inline;">
-			<div class="input-group">
-				<input class="form-control search-input input-sm col-sm-12 pull-right" type="text" name="search" placeholder="Enter search term...">
-				<span class="input-group-addon"><span class="glyphicon glyphicon-search form-control-search"></span></span>
-			</div>
+	<div class="form-group has-search" style="display:inline;">
+		<div class="input-group">
+			<%= autocomplete_field_tag 'search', '', autocomplete_micropost_content_searches_path,
+			class:"form-control search-input input-sm col-sm-12 pull-right", placeholder: "Enter in search term..."	%>
+			<span class="input-group-addon"><span class="glyphicon glyphicon-search form-control-search"></span></span>
 		</div>
-	</form>
+	</div>
+</form>
