@@ -449,7 +449,7 @@ DEPENDENCIES
   minitest-around
   minitest-reporters (= 1.0.5)
   peek
-  pg (= 0.17.1)
+  pg
   pg_search
   private_pub
   pry-rails
@@ -471,4 +471,4 @@ DEPENDENCIES
   will_paginate (= 3.0.7)
 
 BUNDLED WITH
-   1.12.1
+   1.12.5
